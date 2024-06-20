@@ -1,0 +1,293 @@
+nohup: ignoring input
+2024-06-14 09:16:59,098 INFO Device: cuda
+2024-06-14 09:16:59,098 INFO Loading datasets...
+2024-06-14 09:17:49,659 INFO Starting HPO...
+[I 2024-06-14 09:17:49,660] A new study created in memory with name: no-name-561ca53f-f238-4ea8-9b80-360f3de0fee5
+2024-06-14 09:17:49,660 INFO Starting Trial 0
+/home/jupyter-noe/.ml-venv/lib/python3.10/site-packages/torch/nn/modules/lazy.py:181: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+[I 2024-06-14 11:49:25,970] Trial 0 finished with value: 0.959051724137931 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 1024, 'l0_dropout_rate': 0.3855104290789179, 'l0_is_bn': True}. Best is trial 0 with value: 0.959051724137931.
+2024-06-14 11:49:26,053 INFO Starting Trial 1
+[I 2024-06-14 14:21:13,283] Trial 1 finished with value: 0.923760775862069 and parameters: {'num_hidden_layers': 3, 'l0_out_features': 1024, 'l0_dropout_rate': 0.304200940318362, 'l0_is_bn': True, 'l1_out_features': 224, 'l1_dropout_rate': 0.5285886576496776, 'l1_is_bn': True, 'l2_out_features': 864, 'l2_dropout_rate': 0.056160170451762116, 'l2_is_bn': True}. Best is trial 0 with value: 0.959051724137931.
+2024-06-14 14:21:13,366 INFO Starting Trial 2
+[I 2024-06-14 16:52:50,401] Trial 2 finished with value: 0.9073275862068966 and parameters: {'num_hidden_layers': 3, 'l0_out_features': 992, 'l0_dropout_rate': 0.5697355891559558, 'l0_is_bn': True, 'l1_out_features': 320, 'l1_dropout_rate': 0.217638699714817, 'l1_is_bn': True, 'l2_out_features': 768, 'l2_dropout_rate': 0.2697260527721356, 'l2_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-14 16:52:50,482 INFO Starting Trial 3
+[I 2024-06-14 19:24:30,886] Trial 3 finished with value: 0.9552801724137931 and parameters: {'num_hidden_layers': 0}. Best is trial 0 with value: 0.959051724137931.
+2024-06-14 19:24:30,969 INFO Starting Trial 4
+[I 2024-06-14 21:56:08,643] Trial 4 finished with value: 0.9533943965517241 and parameters: {'num_hidden_layers': 0}. Best is trial 0 with value: 0.959051724137931.
+2024-06-14 21:56:08,725 INFO Starting Trial 5
+2024-06-14 22:16:21,442 INFO Trial 5 pruned (accuracy was: 0.681573275862069)
+[I 2024-06-14 22:16:21,442] Trial 5 pruned. 
+2024-06-14 22:16:21,552 INFO Starting Trial 6
+[I 2024-06-15 00:47:29,809] Trial 6 finished with value: 0.9587823275862069 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 896, 'l0_dropout_rate': 0.11810082797436491, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-15 00:47:29,892 INFO Starting Trial 7
+2024-06-15 00:57:36,475 INFO Trial 7 pruned (accuracy was: 0.49084051724137934)
+[I 2024-06-15 00:57:36,476] Trial 7 pruned. 
+2024-06-15 00:57:36,587 INFO Starting Trial 8
+2024-06-15 01:07:41,558 INFO Trial 8 pruned (accuracy was: 0.38146551724137934)
+[I 2024-06-15 01:07:41,558] Trial 8 pruned. 
+2024-06-15 01:07:41,688 INFO Starting Trial 9
+2024-06-15 02:58:45,546 INFO Trial 9 pruned (accuracy was: 0.9490840517241379)
+[I 2024-06-15 02:58:45,546] Trial 9 pruned. 
+2024-06-15 02:58:45,660 INFO Starting Trial 10
+2024-06-15 03:08:53,125 INFO Trial 10 pruned (accuracy was: 0.38981681034482757)
+[I 2024-06-15 03:08:53,125] Trial 10 pruned. 
+2024-06-15 03:08:53,238 INFO Starting Trial 11
+[I 2024-06-15 05:40:03,631] Trial 11 finished with value: 0.9533943965517241 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 768, 'l0_dropout_rate': 0.003907657438595391, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-15 05:40:03,714 INFO Starting Trial 12
+2024-06-15 05:50:10,197 INFO Trial 12 pruned (accuracy was: 0.48679956896551724)
+[I 2024-06-15 05:50:10,198] Trial 12 pruned. 
+2024-06-15 05:50:10,325 INFO Starting Trial 13
+2024-06-15 06:00:17,816 INFO Trial 13 pruned (accuracy was: 0.3776939655172414)
+[I 2024-06-15 06:00:17,816] Trial 13 pruned. 
+2024-06-15 06:00:17,928 INFO Starting Trial 14
+2024-06-15 06:10:28,277 INFO Trial 14 pruned (accuracy was: 0.46875)
+[I 2024-06-15 06:10:28,278] Trial 14 pruned. 
+2024-06-15 06:10:28,388 INFO Starting Trial 15
+2024-06-15 06:20:35,830 INFO Trial 15 pruned (accuracy was: 0.4375)
+[I 2024-06-15 06:20:35,830] Trial 15 pruned. 
+2024-06-15 06:20:35,942 INFO Starting Trial 16
+2024-06-15 07:31:15,657 INFO Trial 16 pruned (accuracy was: 0.9420797413793104)
+[I 2024-06-15 07:31:15,657] Trial 16 pruned. 
+2024-06-15 07:31:15,767 INFO Starting Trial 17
+2024-06-15 07:41:23,924 INFO Trial 17 pruned (accuracy was: 0.48518318965517243)
+[I 2024-06-15 07:41:23,925] Trial 17 pruned. 
+2024-06-15 07:41:24,054 INFO Starting Trial 18
+2024-06-15 07:51:30,579 INFO Trial 18 pruned (accuracy was: 0.3081896551724138)
+[I 2024-06-15 07:51:30,579] Trial 18 pruned. 
+2024-06-15 07:51:30,691 INFO Starting Trial 19
+2024-06-15 08:52:04,548 INFO Trial 19 pruned (accuracy was: 0.9396551724137931)
+[I 2024-06-15 08:52:04,548] Trial 19 pruned. 
+2024-06-15 08:52:04,661 INFO Starting Trial 20
+2024-06-15 09:02:16,407 INFO Trial 20 pruned (accuracy was: 0.5280172413793104)
+[I 2024-06-15 09:02:16,408] Trial 20 pruned. 
+2024-06-15 09:02:16,538 INFO Starting Trial 21
+2024-06-15 10:02:47,089 INFO Trial 21 pruned (accuracy was: 0.939385775862069)
+[I 2024-06-15 10:02:47,089] Trial 21 pruned. 
+2024-06-15 10:02:47,201 INFO Starting Trial 22
+2024-06-15 11:53:36,317 INFO Trial 22 pruned (accuracy was: 0.9517780172413793)
+[I 2024-06-15 11:53:36,317] Trial 22 pruned. 
+2024-06-15 11:53:36,430 INFO Starting Trial 23
+2024-06-15 12:23:50,114 INFO Trial 23 pruned (accuracy was: 0.861260775862069)
+[I 2024-06-15 12:23:50,115] Trial 23 pruned. 
+2024-06-15 12:23:50,226 INFO Starting Trial 24
+2024-06-15 13:34:37,771 INFO Trial 24 pruned (accuracy was: 0.9423491379310345)
+[I 2024-06-15 13:34:37,771] Trial 24 pruned. 
+2024-06-15 13:34:37,882 INFO Starting Trial 25
+2024-06-15 13:44:49,892 INFO Trial 25 pruned (accuracy was: 0.48033405172413796)
+[I 2024-06-15 13:44:49,892] Trial 25 pruned. 
+2024-06-15 13:44:50,007 INFO Starting Trial 26
+2024-06-15 15:05:34,313 INFO Trial 26 pruned (accuracy was: 0.9463900862068966)
+[I 2024-06-15 15:05:34,313] Trial 26 pruned. 
+2024-06-15 15:05:34,425 INFO Starting Trial 27
+2024-06-15 15:15:40,401 INFO Trial 27 pruned (accuracy was: 0.5061961206896551)
+[I 2024-06-15 15:15:40,401] Trial 27 pruned. 
+2024-06-15 15:15:40,522 INFO Starting Trial 28
+2024-06-15 15:25:49,377 INFO Trial 28 pruned (accuracy was: 0.4318426724137931)
+[I 2024-06-15 15:25:49,377] Trial 28 pruned. 
+2024-06-15 15:25:49,487 INFO Starting Trial 29
+[I 2024-06-15 17:57:10,793] Trial 29 finished with value: 0.9533943965517241 and parameters: {'num_hidden_layers': 0}. Best is trial 0 with value: 0.959051724137931.
+2024-06-15 17:57:10,875 INFO Starting Trial 30
+2024-06-15 18:07:17,811 INFO Trial 30 pruned (accuracy was: 0.19854525862068967)
+[I 2024-06-15 18:07:17,811] Trial 30 pruned. 
+2024-06-15 18:07:17,922 INFO Starting Trial 31
+2024-06-15 19:07:49,794 INFO Trial 31 pruned (accuracy was: 0.9396551724137931)
+[I 2024-06-15 19:07:49,794] Trial 31 pruned. 
+2024-06-15 19:07:49,907 INFO Starting Trial 32
+2024-06-15 20:58:44,954 INFO Trial 32 pruned (accuracy was: 0.9504310344827587)
+[I 2024-06-15 20:58:44,954] Trial 32 pruned. 
+2024-06-15 20:58:45,065 INFO Starting Trial 33
+2024-06-15 21:08:56,063 INFO Trial 33 pruned (accuracy was: 0.18399784482758622)
+[I 2024-06-15 21:08:56,063] Trial 33 pruned. 
+2024-06-15 21:08:56,184 INFO Starting Trial 34
+2024-06-15 21:19:04,197 INFO Trial 34 pruned (accuracy was: 0.48976293103448276)
+[I 2024-06-15 21:19:04,198] Trial 34 pruned. 
+2024-06-15 21:19:04,325 INFO Starting Trial 35
+2024-06-15 22:19:39,272 INFO Trial 35 pruned (accuracy was: 0.9372306034482759)
+[I 2024-06-15 22:19:39,272] Trial 35 pruned. 
+2024-06-15 22:19:39,385 INFO Starting Trial 36
+2024-06-15 22:29:48,116 INFO Trial 36 pruned (accuracy was: 0.5169719827586207)
+[I 2024-06-15 22:29:48,117] Trial 36 pruned. 
+2024-06-15 22:29:48,229 INFO Starting Trial 37
+2024-06-15 23:30:20,775 INFO Trial 37 pruned (accuracy was: 0.9385775862068966)
+[I 2024-06-15 23:30:20,776] Trial 37 pruned. 
+2024-06-15 23:30:20,889 INFO Starting Trial 38
+2024-06-15 23:40:30,851 INFO Trial 38 pruned (accuracy was: 0.5245150862068966)
+[I 2024-06-15 23:40:30,851] Trial 38 pruned. 
+2024-06-15 23:40:30,964 INFO Starting Trial 39
+2024-06-16 00:51:17,335 INFO Trial 39 pruned (accuracy was: 0.9420797413793104)
+[I 2024-06-16 00:51:17,336] Trial 39 pruned. 
+2024-06-16 00:51:17,447 INFO Starting Trial 40
+2024-06-16 01:01:27,036 INFO Trial 40 pruned (accuracy was: 0.4515086206896552)
+[I 2024-06-16 01:01:27,037] Trial 40 pruned. 
+2024-06-16 01:01:27,153 INFO Starting Trial 41
+2024-06-16 01:11:35,033 INFO Trial 41 pruned (accuracy was: 0.5269396551724138)
+[I 2024-06-16 01:11:35,034] Trial 41 pruned. 
+2024-06-16 01:11:35,147 INFO Starting Trial 42
+2024-06-16 01:31:47,111 INFO Trial 42 pruned (accuracy was: 0.796875)
+[I 2024-06-16 01:31:47,111] Trial 42 pruned. 
+2024-06-16 01:31:47,225 INFO Starting Trial 43
+2024-06-16 01:41:53,515 INFO Trial 43 pruned (accuracy was: 0.4167564655172414)
+[I 2024-06-16 01:41:53,515] Trial 43 pruned. 
+2024-06-16 01:41:53,627 INFO Starting Trial 44
+[I 2024-06-16 04:13:21,790] Trial 44 finished with value: 0.9539331896551724 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 1024, 'l0_dropout_rate': 0.0008269875231073504, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 04:13:21,874 INFO Starting Trial 45
+2024-06-16 04:33:33,473 INFO Trial 45 pruned (accuracy was: 0.8003771551724138)
+[I 2024-06-16 04:33:33,474] Trial 45 pruned. 
+2024-06-16 04:33:33,587 INFO Starting Trial 46
+2024-06-16 04:43:42,092 INFO Trial 46 pruned (accuracy was: 0.4598599137931034)
+[I 2024-06-16 04:43:42,093] Trial 46 pruned. 
+2024-06-16 04:43:42,223 INFO Starting Trial 47
+2024-06-16 04:53:49,893 INFO Trial 47 pruned (accuracy was: 0.4943426724137931)
+[I 2024-06-16 04:53:49,893] Trial 47 pruned. 
+2024-06-16 04:53:50,007 INFO Starting Trial 48
+2024-06-16 06:04:17,816 INFO Trial 48 pruned (accuracy was: 0.9442349137931034)
+[I 2024-06-16 06:04:17,816] Trial 48 pruned. 
+2024-06-16 06:04:17,927 INFO Starting Trial 49
+2024-06-16 06:14:24,109 INFO Trial 49 pruned (accuracy was: 0.41648706896551724)
+[I 2024-06-16 06:14:24,110] Trial 49 pruned. 
+2024-06-16 06:14:24,238 INFO Starting Trial 50
+2024-06-16 06:24:31,183 INFO Trial 50 pruned (accuracy was: 0.5183189655172413)
+[I 2024-06-16 06:24:31,183] Trial 50 pruned. 
+2024-06-16 06:24:31,295 INFO Starting Trial 51
+[I 2024-06-16 08:55:49,292] Trial 51 finished with value: 0.9587823275862069 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 992, 'l0_dropout_rate': 0.008752508696268155, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 08:55:49,374 INFO Starting Trial 52
+[I 2024-06-16 11:27:03,769] Trial 52 finished with value: 0.9544719827586207 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 992, 'l0_dropout_rate': 0.027172180180368932, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 11:27:03,852 INFO Starting Trial 53
+2024-06-16 11:37:10,494 INFO Trial 53 pruned (accuracy was: 0.5549568965517241)
+[I 2024-06-16 11:37:10,494] Trial 53 pruned. 
+2024-06-16 11:37:10,607 INFO Starting Trial 54
+2024-06-16 12:07:28,240 INFO Trial 54 pruned (accuracy was: 0.8828125)
+[I 2024-06-16 12:07:28,241] Trial 54 pruned. 
+2024-06-16 12:07:28,354 INFO Starting Trial 55
+[I 2024-06-16 14:38:53,177] Trial 55 finished with value: 0.9574353448275862 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 1024, 'l0_dropout_rate': 0.011953430510161595, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 14:38:53,258 INFO Starting Trial 56
+2024-06-16 14:49:01,105 INFO Trial 56 pruned (accuracy was: 0.5463362068965517)
+[I 2024-06-16 14:49:01,105] Trial 56 pruned. 
+2024-06-16 14:49:01,236 INFO Starting Trial 57
+2024-06-16 14:59:10,182 INFO Trial 57 pruned (accuracy was: 0.5344827586206896)
+[I 2024-06-16 14:59:10,182] Trial 57 pruned. 
+2024-06-16 14:59:10,295 INFO Starting Trial 58
+2024-06-16 15:09:17,928 INFO Trial 58 pruned (accuracy was: 0.5444504310344828)
+[I 2024-06-16 15:09:17,929] Trial 58 pruned. 
+2024-06-16 15:09:18,041 INFO Starting Trial 59
+2024-06-16 15:19:27,124 INFO Trial 59 pruned (accuracy was: 0.4302262931034483)
+[I 2024-06-16 15:19:27,125] Trial 59 pruned. 
+2024-06-16 15:19:27,237 INFO Starting Trial 60
+2024-06-16 15:29:39,615 INFO Trial 60 pruned (accuracy was: 0.46174568965517243)
+[I 2024-06-16 15:29:39,616] Trial 60 pruned. 
+2024-06-16 15:29:39,727 INFO Starting Trial 61
+[I 2024-06-16 18:01:05,460] Trial 61 finished with value: 0.9585129310344828 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 1024, 'l0_dropout_rate': 0.005597253857365543, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 18:01:05,543 INFO Starting Trial 62
+[I 2024-06-16 20:32:33,468] Trial 62 finished with value: 0.9547413793103449 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 1024, 'l0_dropout_rate': 0.01164380912919471, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-16 20:32:33,550 INFO Starting Trial 63
+2024-06-16 20:42:41,946 INFO Trial 63 pruned (accuracy was: 0.5705818965517241)
+[I 2024-06-16 20:42:41,947] Trial 63 pruned. 
+2024-06-16 20:42:42,075 INFO Starting Trial 64
+2024-06-16 20:52:49,181 INFO Trial 64 pruned (accuracy was: 0.4849137931034483)
+[I 2024-06-16 20:52:49,181] Trial 64 pruned. 
+2024-06-16 20:52:49,293 INFO Starting Trial 65
+2024-06-16 21:03:02,750 INFO Trial 65 pruned (accuracy was: 0.4587823275862069)
+[I 2024-06-16 21:03:02,751] Trial 65 pruned. 
+2024-06-16 21:03:02,864 INFO Starting Trial 66
+2024-06-16 21:13:11,215 INFO Trial 66 pruned (accuracy was: 0.5511853448275862)
+[I 2024-06-16 21:13:11,215] Trial 66 pruned. 
+2024-06-16 21:13:11,329 INFO Starting Trial 67
+2024-06-16 21:23:18,147 INFO Trial 67 pruned (accuracy was: 0.5560344827586207)
+[I 2024-06-16 21:23:18,148] Trial 67 pruned. 
+2024-06-16 21:23:18,261 INFO Starting Trial 68
+2024-06-16 21:43:30,943 INFO Trial 68 pruned (accuracy was: 0.8041487068965517)
+[I 2024-06-16 21:43:30,943] Trial 68 pruned. 
+2024-06-16 21:43:31,055 INFO Starting Trial 69
+2024-06-16 21:53:37,076 INFO Trial 69 pruned (accuracy was: 0.4714439655172414)
+[I 2024-06-16 21:53:37,077] Trial 69 pruned. 
+2024-06-16 21:53:37,207 INFO Starting Trial 70
+2024-06-16 22:34:09,677 INFO Trial 70 pruned (accuracy was: 0.9213362068965517)
+[I 2024-06-16 22:34:09,678] Trial 70 pruned. 
+2024-06-16 22:34:09,791 INFO Starting Trial 71
+2024-06-16 23:04:36,155 INFO Trial 71 pruned (accuracy was: 0.8852370689655172)
+[I 2024-06-16 23:04:36,155] Trial 71 pruned. 
+2024-06-16 23:04:36,267 INFO Starting Trial 72
+2024-06-16 23:14:43,775 INFO Trial 72 pruned (accuracy was: 0.5660021551724138)
+[I 2024-06-16 23:14:43,776] Trial 72 pruned. 
+2024-06-16 23:14:43,889 INFO Starting Trial 73
+[I 2024-06-17 01:46:17,308] Trial 73 finished with value: 0.9574353448275862 and parameters: {'num_hidden_layers': 1, 'l0_out_features': 992, 'l0_dropout_rate': 0.020938083752026288, 'l0_is_bn': False}. Best is trial 0 with value: 0.959051724137931.
+2024-06-17 01:46:17,391 INFO Starting Trial 74
+2024-06-17 01:56:24,847 INFO Trial 74 pruned (accuracy was: 0.5492995689655172)
+[I 2024-06-17 01:56:24,847] Trial 74 pruned. 
+2024-06-17 01:56:24,963 INFO Starting Trial 75
+2024-06-17 02:06:31,806 INFO Trial 75 pruned (accuracy was: 0.5595366379310345)
+[I 2024-06-17 02:06:31,807] Trial 75 pruned. 
+2024-06-17 02:06:31,924 INFO Starting Trial 76
+2024-06-17 02:16:36,675 INFO Trial 76 pruned (accuracy was: 0.3203125)
+[I 2024-06-17 02:16:36,676] Trial 76 pruned. 
+2024-06-17 02:16:36,790 INFO Starting Trial 77
+2024-06-17 02:26:43,533 INFO Trial 77 pruned (accuracy was: 0.5129310344827587)
+[I 2024-06-17 02:26:43,534] Trial 77 pruned. 
+2024-06-17 02:26:43,646 INFO Starting Trial 78
+2024-06-17 02:36:53,406 INFO Trial 78 pruned (accuracy was: 0.5210129310344828)
+[I 2024-06-17 02:36:53,406] Trial 78 pruned. 
+2024-06-17 02:36:53,518 INFO Starting Trial 79
+2024-06-17 02:47:04,539 INFO Trial 79 pruned (accuracy was: 0.4482758620689655)
+[I 2024-06-17 02:47:04,539] Trial 79 pruned. 
+2024-06-17 02:47:04,653 INFO Starting Trial 80
+2024-06-17 03:27:27,642 INFO Trial 80 pruned (accuracy was: 0.9234913793103449)
+[I 2024-06-17 03:27:27,642] Trial 80 pruned. 
+2024-06-17 03:27:27,773 INFO Starting Trial 81
+2024-06-17 03:47:41,919 INFO Trial 81 pruned (accuracy was: 0.8092672413793104)
+[I 2024-06-17 03:47:41,920] Trial 81 pruned. 
+2024-06-17 03:47:42,033 INFO Starting Trial 82
+2024-06-17 03:57:47,463 INFO Trial 82 pruned (accuracy was: 0.5595366379310345)
+[I 2024-06-17 03:57:47,464] Trial 82 pruned. 
+2024-06-17 03:57:47,577 INFO Starting Trial 83
+2024-06-17 04:07:55,595 INFO Trial 83 pruned (accuracy was: 0.5323275862068966)
+[I 2024-06-17 04:07:55,596] Trial 83 pruned. 
+2024-06-17 04:07:55,709 INFO Starting Trial 84
+2024-06-17 04:18:03,789 INFO Trial 84 pruned (accuracy was: 0.5425646551724138)
+[I 2024-06-17 04:18:03,790] Trial 84 pruned. 
+2024-06-17 04:18:03,904 INFO Starting Trial 85
+2024-06-17 04:38:21,042 INFO Trial 85 pruned (accuracy was: 0.7726293103448276)
+[I 2024-06-17 04:38:21,043] Trial 85 pruned. 
+2024-06-17 04:38:21,170 INFO Starting Trial 86
+2024-06-17 04:48:29,967 INFO Trial 86 pruned (accuracy was: 0.5385237068965517)
+[I 2024-06-17 04:48:29,970] Trial 86 pruned. 
+2024-06-17 04:48:30,084 INFO Starting Trial 87
+2024-06-17 04:58:37,302 INFO Trial 87 pruned (accuracy was: 0.572198275862069)
+[I 2024-06-17 04:58:37,302] Trial 87 pruned. 
+2024-06-17 04:58:37,417 INFO Starting Trial 88
+2024-06-17 05:08:46,457 INFO Trial 88 pruned (accuracy was: 0.49973060344827586)
+[I 2024-06-17 05:08:46,457] Trial 88 pruned. 
+2024-06-17 05:08:46,568 INFO Starting Trial 89
+2024-06-17 05:18:57,778 INFO Trial 89 pruned (accuracy was: 0.44207974137931033)
+[I 2024-06-17 05:18:57,778] Trial 89 pruned. 
+2024-06-17 05:18:57,892 INFO Starting Trial 90
+2024-06-17 06:09:30,194 INFO Trial 90 pruned (accuracy was: 0.9350754310344828)
+[I 2024-06-17 06:09:30,194] Trial 90 pruned. 
+2024-06-17 06:09:30,308 INFO Starting Trial 91
+2024-06-17 06:19:40,031 INFO Trial 91 pruned (accuracy was: 0.5417564655172413)
+[I 2024-06-17 06:19:40,031] Trial 91 pruned. 
+2024-06-17 06:19:40,160 INFO Starting Trial 92
+2024-06-17 06:29:47,152 INFO Trial 92 pruned (accuracy was: 0.5730064655172413)
+[I 2024-06-17 06:29:47,152] Trial 92 pruned. 
+2024-06-17 06:29:47,264 INFO Starting Trial 93
+2024-06-17 06:39:54,488 INFO Trial 93 pruned (accuracy was: 0.560614224137931)
+[I 2024-06-17 06:39:54,489] Trial 93 pruned. 
+2024-06-17 06:39:54,600 INFO Starting Trial 94
+2024-06-17 06:50:04,669 INFO Trial 94 pruned (accuracy was: 0.5571120689655172)
+[I 2024-06-17 06:50:04,669] Trial 94 pruned. 
+2024-06-17 06:50:04,790 INFO Starting Trial 95
+2024-06-17 07:00:10,727 INFO Trial 95 pruned (accuracy was: 0.5686961206896551)
+[I 2024-06-17 07:00:10,727] Trial 95 pruned. 
+2024-06-17 07:00:10,839 INFO Starting Trial 96
+2024-06-17 07:10:19,615 INFO Trial 96 pruned (accuracy was: 0.5396012931034483)
+[I 2024-06-17 07:10:19,615] Trial 96 pruned. 
+2024-06-17 07:10:19,728 INFO Starting Trial 97
+2024-06-17 07:30:33,205 INFO Trial 97 pruned (accuracy was: 0.7931034482758621)
+[I 2024-06-17 07:30:33,206] Trial 97 pruned. 
+2024-06-17 07:30:33,318 INFO Starting Trial 98
+2024-06-17 07:40:38,162 INFO Trial 98 pruned (accuracy was: 0.42429956896551724)
+[I 2024-06-17 07:40:38,162] Trial 98 pruned. 
+2024-06-17 07:40:38,275 INFO Starting Trial 99
+2024-06-17 07:50:43,447 INFO Trial 99 pruned (accuracy was: 0.47575431034482757)
+[I 2024-06-17 07:50:43,448] Trial 99 pruned. 
+2024-06-17 07:50:43,577 INFO Results saved to HPO.csv

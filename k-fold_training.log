@@ -1,0 +1,74 @@
+nohup: ignoring input
+2024-06-19 22:20:27,036 INFO Device : cuda
+2024-06-19 22:20:36,321 INFO Loading dataset ...
+2024-06-19 22:21:28,876 INFO ###### FOLD 0 ######
+2024-06-19 22:31:26,887 INFO Epoch 0 completed | training loss = 2.244921201040474 | training accuracy = 0.49392651078044336 | val loss = 0.8012999863300508 | val accuracy = 0.8724567263893107
+2024-06-19 22:41:24,059 INFO Epoch 1 completed | training loss = 0.7427654227883113 | training accuracy = 0.8108867294260552 | val loss = 0.2987846952763576 | val accuracy = 0.9471606437898573
+2024-06-19 22:51:20,832 INFO Epoch 2 completed | training loss = 0.4631048274256456 | training accuracy = 0.8783783783783784 | val loss = 0.1970749615874702 | val accuracy = 0.9565745520801701
+2024-06-19 23:01:18,742 INFO Epoch 3 completed | training loss = 0.37340822250004935 | training accuracy = 0.9006984512602491 | val loss = 0.18975325312252944 | val accuracy = 0.9538414819313695
+2024-06-19 23:11:15,953 INFO Epoch 4 completed | training loss = 0.33026387245574107 | training accuracy = 0.9090494989371394 | val loss = 0.21442183918986205 | val accuracy = 0.9501973883996356
+2024-06-19 23:21:14,302 INFO Epoch 5 completed | training loss = 0.32718854688884635 | training accuracy = 0.9110233829334953 | val loss = 0.23395232849333236 | val accuracy = 0.9438202247191011
+2024-06-19 23:31:11,622 INFO Epoch 6 completed | training loss = 0.2289557436429661 | training accuracy = 0.9367597935013665 | val loss = 0.22385732250019555 | val accuracy = 0.949286365016702
+2024-06-19 23:41:09,395 INFO Epoch 7 completed | training loss = 0.1690180386031673 | training accuracy = 0.9542969936228363 | val loss = 0.2071884217130521 | val accuracy = 0.9505010628606134
+2024-06-19 23:51:06,948 INFO Epoch 8 completed | training loss = 0.13179084252266474 | training accuracy = 0.9632553902216824 | val loss = 0.2028712683501855 | val accuracy = 0.953234133009414
+2024-06-19 23:51:06,949 INFO -----Early stop trigger --> stopping training-----
+2024-06-19 23:51:09,406 INFO ###### FOLD 1 ######
+2024-06-20 00:01:06,047 INFO Epoch 0 completed | training loss = 2.222712852173888 | training accuracy = 0.49863346492559973 | val loss = 0.7596123654720852 | val accuracy = 0.8697236562405102
+2024-06-20 00:11:02,891 INFO Epoch 1 completed | training loss = 0.728826599789339 | training accuracy = 0.8143030671120559 | val loss = 0.3316116242271676 | val accuracy = 0.9371393865775888
+2024-06-20 00:20:59,575 INFO Epoch 2 completed | training loss = 0.453431855206919 | training accuracy = 0.879972669298512 | val loss = 0.22401141783095968 | val accuracy = 0.9477679927118129
+2024-06-20 00:30:55,814 INFO Epoch 3 completed | training loss = 0.3698207308381624 | training accuracy = 0.8995596720315822 | val loss = 0.22244865770660255 | val accuracy = 0.949286365016702
+2024-06-20 00:40:52,443 INFO Epoch 4 completed | training loss = 0.32515700566973965 | training accuracy = 0.9101882781658063 | val loss = 0.2598937030213951 | val accuracy = 0.9410871545703007
+2024-06-20 00:50:49,220 INFO Epoch 5 completed | training loss = 0.32475849160736253 | training accuracy = 0.9086699058609171 | val loss = 0.27163223086294574 | val accuracy = 0.9423018524142119
+2024-06-20 01:00:45,859 INFO Epoch 6 completed | training loss = 0.2251475338464881 | training accuracy = 0.9378985727300334 | val loss = 0.25357549674942487 | val accuracy = 0.9450349225630125
+2024-06-20 01:10:42,044 INFO Epoch 7 completed | training loss = 0.16579271150820335 | training accuracy = 0.9537655633161252 | val loss = 0.23030128737420313 | val accuracy = 0.9538414819313695
+2024-06-20 01:20:38,629 INFO Epoch 8 completed | training loss = 0.12390004074153348 | training accuracy = 0.9661402976009718 | val loss = 0.23212091755417047 | val accuracy = 0.9550561797752809
+2024-06-20 01:30:36,231 INFO Epoch 9 completed | training loss = 0.09691816897311532 | training accuracy = 0.9720619495900394 | val loss = 0.2727037438455627 | val accuracy = 0.9514120862435469
+2024-06-20 01:40:33,358 INFO Epoch 10 completed | training loss = 0.07093428681012522 | training accuracy = 0.9794260552687519 | val loss = 0.24056430655314193 | val accuracy = 0.9562708776191923
+2024-06-20 01:40:33,359 INFO -----Early stop trigger --> stopping training-----
+2024-06-20 01:40:35,618 INFO ###### FOLD 2 ######
+2024-06-20 01:50:33,431 INFO Epoch 0 completed | training loss = 2.236687812865975 | training accuracy = 0.49521712723959915 | val loss = 0.8027080737090516 | val accuracy = 0.8721530519283328
+2024-06-20 02:00:31,191 INFO Epoch 1 completed | training loss = 0.7364823833508298 | training accuracy = 0.8117218341937443 | val loss = 0.3142648436721342 | val accuracy = 0.9401761311873671
+2024-06-20 02:10:28,912 INFO Epoch 2 completed | training loss = 0.4518985890364359 | training accuracy = 0.8852110537503796 | val loss = 0.21769086117754483 | val accuracy = 0.9489826905557243
+2024-06-20 02:20:26,543 INFO Epoch 3 completed | training loss = 0.36847029118694063 | training accuracy = 0.9022927421803826 | val loss = 0.2132281093887569 | val accuracy = 0.9456422714849682
+2024-06-20 02:30:24,348 INFO Epoch 4 completed | training loss = 0.33880441770696607 | training accuracy = 0.9082143941694504 | val loss = 0.2323124207512733 | val accuracy = 0.9426055268751898
+2024-06-20 02:40:20,977 INFO Epoch 5 completed | training loss = 0.32519697448959417 | training accuracy = 0.9122380807774066 | val loss = 0.22912607422640752 | val accuracy = 0.9459459459459459
+2024-06-20 02:50:18,866 INFO Epoch 6 completed | training loss = 0.23761137136128904 | training accuracy = 0.9341785605830549 | val loss = 0.22192480437155326 | val accuracy = 0.9508047373215912
+2024-06-20 03:00:16,976 INFO Epoch 7 completed | training loss = 0.17397350522925745 | training accuracy = 0.9520953537807471 | val loss = 0.224642315253564 | val accuracy = 0.9505010628606134
+2024-06-20 03:10:14,730 INFO Epoch 8 completed | training loss = 0.11833524887750656 | training accuracy = 0.9662162162162162 | val loss = 0.23248343371449098 | val accuracy = 0.94959003947768
+2024-06-20 03:20:13,462 INFO Epoch 9 completed | training loss = 0.09264923127701505 | training accuracy = 0.9742635894321288 | val loss = 0.22172825470435994 | val accuracy = 0.9514120862435469
+2024-06-20 03:30:10,643 INFO Epoch 10 completed | training loss = 0.07351408118640125 | training accuracy = 0.9790464621925296 | val loss = 0.21539004788665958 | val accuracy = 0.9553598542362587
+2024-06-20 03:40:10,023 INFO Epoch 11 completed | training loss = 0.055337917192314755 | training accuracy = 0.9850440327968418 | val loss = 0.2317871192087287 | val accuracy = 0.9565745520801701
+2024-06-20 03:40:10,023 INFO -----Early stop trigger --> stopping training-----
+2024-06-20 03:40:12,312 INFO ###### FOLD 3 ######
+2024-06-20 03:50:10,094 INFO Epoch 0 completed | training loss = 2.2562912248559046 | training accuracy = 0.48838445186759794 | val loss = 0.7649461468229595 | val accuracy = 0.88095961129669
+2024-06-20 04:00:07,653 INFO Epoch 1 completed | training loss = 0.72988501739302 | training accuracy = 0.8137716368053447 | val loss = 0.33172459425675926 | val accuracy = 0.9380504099605224
+2024-06-20 04:10:05,661 INFO Epoch 2 completed | training loss = 0.45825696877007666 | training accuracy = 0.878150622532645 | val loss = 0.23093421995250996 | val accuracy = 0.9465532948679016
+2024-06-20 04:20:03,521 INFO Epoch 3 completed | training loss = 0.36468419299027516 | training accuracy = 0.9020649863346493 | val loss = 0.22770099700976715 | val accuracy = 0.9459459459459459
+2024-06-20 04:30:01,861 INFO Epoch 4 completed | training loss = 0.31754815957195714 | training accuracy = 0.9136046158518069 | val loss = 0.2510003349786874 | val accuracy = 0.9392651078044336
+2024-06-20 04:39:59,067 INFO Epoch 5 completed | training loss = 0.31878409930052487 | training accuracy = 0.9126935924688734 | val loss = 0.2379105684373111 | val accuracy = 0.9450349225630125
+2024-06-20 04:49:56,303 INFO Epoch 6 completed | training loss = 0.23459590224362006 | training accuracy = 0.933191618584877 | val loss = 0.23975691769095586 | val accuracy = 0.9486790160947465
+2024-06-20 04:59:54,029 INFO Epoch 7 completed | training loss = 0.163233258046151 | training accuracy = 0.9547525053143031 | val loss = 0.24836688624430378 | val accuracy = 0.9468569693288794
+2024-06-20 05:09:51,391 INFO Epoch 8 completed | training loss = 0.12502484604258698 | training accuracy = 0.9640904949893714 | val loss = 0.21233048143590477 | val accuracy = 0.9577892499240814
+2024-06-20 05:19:49,428 INFO Epoch 9 completed | training loss = 0.0930143216065557 | training accuracy = 0.9744913452778622 | val loss = 0.2136895761998646 | val accuracy = 0.9568782265411478
+2024-06-20 05:29:47,396 INFO Epoch 10 completed | training loss = 0.07078376103268164 | training accuracy = 0.9808685089583966 | val loss = 0.221522328595191 | val accuracy = 0.9577892499240814
+2024-06-20 05:39:44,675 INFO Epoch 11 completed | training loss = 0.060227567103211144 | training accuracy = 0.9832979046462192 | val loss = 0.23214793576768844 | val accuracy = 0.9565745520801701
+2024-06-20 05:49:42,052 INFO Epoch 12 completed | training loss = 0.04209113401384153 | training accuracy = 0.9889158821743091 | val loss = 0.23698066676706456 | val accuracy = 0.958396598846037
+2024-06-20 05:59:40,521 INFO Epoch 13 completed | training loss = 0.040960635180492776 | training accuracy = 0.9895991497115093 | val loss = 0.23782853057778458 | val accuracy = 0.9571819010021257
+2024-06-20 06:09:37,612 INFO Epoch 14 completed | training loss = 0.030555221293040273 | training accuracy = 0.9915730337078652 | val loss = 0.2291869644428026 | val accuracy = 0.9617370179167932
+2024-06-20 06:19:34,509 INFO Epoch 15 completed | training loss = 0.026500113698921572 | training accuracy = 0.9928636501670209 | val loss = 0.2201531203992185 | val accuracy = 0.9638627391436381
+2024-06-20 06:29:32,226 INFO Epoch 16 completed | training loss = 0.02442260671672718 | training accuracy = 0.9936228363194656 | val loss = 0.24338727662033202 | val accuracy = 0.9602186456119041
+2024-06-20 06:29:32,226 INFO -----Early stop trigger --> stopping training-----
+2024-06-20 06:29:34,515 INFO ###### FOLD 4 ######
+2024-06-20 06:39:30,781 INFO Epoch 0 completed | training loss = 2.218212181192206 | training accuracy = 0.5045551169146675 | val loss = 0.8073543056990337 | val accuracy = 0.8636501670209535
+2024-06-20 06:49:28,323 INFO Epoch 1 completed | training loss = 0.7238827803950818 | training accuracy = 0.8144549043425447 | val loss = 0.3331210699465885 | val accuracy = 0.9380504099605224
+2024-06-20 06:59:25,199 INFO Epoch 2 completed | training loss = 0.4598030120091378 | training accuracy = 0.8803522623747343 | val loss = 0.2239411851081509 | val accuracy = 0.9501973883996356
+2024-06-20 07:09:23,418 INFO Epoch 3 completed | training loss = 0.3680724460470734 | training accuracy = 0.9012298815669603 | val loss = 0.2149843780145284 | val accuracy = 0.9453385970239903
+2024-06-20 07:19:21,309 INFO Epoch 4 completed | training loss = 0.3362608312699281 | training accuracy = 0.9080625569389614 | val loss = 0.22707036740906103 | val accuracy = 0.9468569693288794
+2024-06-20 07:29:18,669 INFO Epoch 5 completed | training loss = 0.316828086483992 | training accuracy = 0.916109930154874 | val loss = 0.24517286373513555 | val accuracy = 0.9419981779532342
+2024-06-20 07:39:15,251 INFO Epoch 6 completed | training loss = 0.22974656996417295 | training accuracy = 0.936683874886122 | val loss = 0.2514746096226764 | val accuracy = 0.9453385970239903
+2024-06-20 07:49:11,709 INFO Epoch 7 completed | training loss = 0.17254342506306034 | training accuracy = 0.9539933191618585 | val loss = 0.2411929074356186 | val accuracy = 0.94959003947768
+2024-06-20 07:59:08,580 INFO Epoch 8 completed | training loss = 0.11972370618679272 | training accuracy = 0.9664439720619495 | val loss = 0.21780270299935192 | val accuracy = 0.9568782265411478
+2024-06-20 08:09:06,268 INFO Epoch 9 completed | training loss = 0.09886874131705391 | training accuracy = 0.9725933798967507 | val loss = 0.23177614148267575 | val accuracy = 0.9547525053143031
+2024-06-20 08:09:06,269 INFO -----Early stop trigger --> stopping training-----
+2024-06-20 08:09:08,587 INFO Saving result ...
+2024-06-20 08:09:08,606 INFO Training finished !
